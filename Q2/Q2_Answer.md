@@ -10,13 +10,13 @@
 ## 2. Environment Setup
 
 * Start jupyter notebook in command line
-
+```console
 jupyter notebook
-
+```
  * Install pandas 
-
+```console
 pip install pandas 
-
+```
 ## 3. Create Jupyter Notebook
 
 * Use jupyter notebook to edit Q2 - Raw data analytics.ipynb
