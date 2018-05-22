@@ -13,7 +13,7 @@
     3. Insert sample data for testing
 
 ```console
-psql postgres -f db_test.sql
+$ psql postgres -f db_test.sql
 ```
 ## 3. Create the SQL script
 
@@ -37,7 +37,7 @@ SELECT COUNT(*)  FROM
 ## 4. Testing
 * Run ans_script.sql in command line
 ```console
-psql db_test -f ans_script.sql
+$ psql db_test -f ans_script.sql
 ```
 * Test Cases
 
@@ -66,7 +66,7 @@ INSERT INTO piwik_track (time , uid, event_name) VALUES
 ```
 * Result
 ```console
-MacBook-Pro:Q1 sincheng$ psql db_test -f ans_script.sql
+$ psql db_test -f ans_script.sql
    
 ---
  3
@@ -76,8 +76,3 @@ MacBook-Pro:Q1 sincheng$ psql db_test -f ans_script.sql
     * F75DA5D1
     * F75DA5D2
     * F75DA5D3
-
-
-```python
-
-```
