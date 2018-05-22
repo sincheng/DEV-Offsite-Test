@@ -12,8 +12,9 @@
     2. Create new table piwik_track
     3. Insert sample data for testing
 
+```console
 psql postgres -f db_test.sql
-
+```
 ## 3. Create the SQL script
 
 * Approach</br>
@@ -21,7 +22,7 @@ psql postgres -f db_test.sql
     2.	Then, count each user who selected in step 1 has at least 1 event between 2017-04-02 and 2017-04-08
     3.	Count the no.of user satisfy the condition in step 2.
 
-
+```console
 SELECT COUNT(*)  FROM
     (SELECT a.uid, COUNT(b.event_name) AS event_count
         FROM piwik_track a ,piwik_track b
@@ -31,13 +32,13 @@ SELECT COUNT(*)  FROM
         AND b.time between '2017-04-02' AND '2017-04-08'
         GROUP BY a.uid
         HAVING COUNT(b.event_name)>=1) as t1;
+```
 
 ## 4. Testing
-
 * Run ans_script.sql in command line
-
+```console
 psql db_test -f ans_script.sql
-
+```
 * Test Cases
 
 No | Description | Expected | Result  
@@ -47,7 +48,7 @@ No | Description | Expected | Result
 3 | User install the app on 2017-04-01 but does not have any events between 2017-04-02 and 2017-04-08 (F75DA5D4)| N | N
 
 * Sample Data
-
+```console
 INSERT INTO piwik_track (time , uid, event_name) VALUES
     ('2017-04-01 10:00:00','F75DA5D1','FIRST_INSTALL'),
     ('2017-04-05 11:11:11','F75DA5D1','EVENT1'),
@@ -62,15 +63,15 @@ INSERT INTO piwik_track (time , uid, event_name) VALUES
     ('2017-04-01 10:00:00','F75DA5D5','FIRST_INSTALL'),
     ('2017-04-02 11:00:10','F75DA5D6','FIRST_INSTALL'),
     ('2017-04-05 11:40:11','F75DA5D6','EVENT1');
-
+```
 * Result
-
+```console
 MacBook-Pro:Q1 sincheng$ psql db_test -f ans_script.sql
    
 ---
  3
 (1 row)
-
+```
 * Users satisified conditions
     * F75DA5D1
     * F75DA5D2
