@@ -2,7 +2,7 @@
 # Q3a - Simple Voting System API Design
 
 ## 1. Tools
-
+* Database - MongoDB
 * Python 3
     * PyMongo
     * Flask
@@ -127,19 +127,12 @@ $ python app.py
 ```
 ## 6. Testing
 
-* Requests</br>
-    1. Vote individual candidates
-    2. Dispaly result
+* POST Request - Vote individual candidate
 
+![GitHub Logo](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3a/img/request_1.png)
 
-```python
-
-```
-
-
-```python
-
-```
+* GET Request - Display result
+![GitHub Logo](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3a/img/request_2.png)
 
 * Error Handling
     * Invalid candidate ID
