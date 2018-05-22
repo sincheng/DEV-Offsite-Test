@@ -1,7 +1,7 @@
 
 # Offsite Test Q1 - SQL
 
-## 1. Tools Used
+## 1. Tools
 
 * Postgre Version 2.1.3
 
