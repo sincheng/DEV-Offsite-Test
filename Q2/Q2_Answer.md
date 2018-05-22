@@ -11,11 +11,11 @@
 
 * Start jupyter notebook in command line
 ```console
-jupyter notebook
+$ jupyter notebook
 ```
  * Install pandas 
 ```console
-pip install pandas 
+$ pip install pandas 
 ```
 ## 3. Create Jupyter Notebook
 
