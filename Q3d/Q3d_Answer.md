@@ -91,12 +91,15 @@ The KPI dashboard consists of 5 parts.
 Public Link
 https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPIDashboard
 
+![Dashboard Overview](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/kpi_dashboard2.png)
+
 #### * Crash Rate
     - Donut pie chart with crash rate percentage
     - Calculated by count of session_id in app crash report / count of all session id in user_session_time
     - Can quickly alert if the crash rate exceed a given value
 
- * Eample
+![Crash Rate](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/1_crash_rate3.png)
+ * Example
   - No. of session_id in app crash report = 11
   - No. of session_id in user session time = 17
   - crash rate = 11/37 = 64.71%
@@ -107,6 +110,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
     - Understand which page user spent most of the time
     - The label above the bar show no. of time access the page
 
+![Session Time Overview](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/2_session_time_overview.png)
 * Example
     - Users average spent 150 seconds on page 5 which is perform payment
     - Users spent less time on page 1 and 6 (event summary and purchase confirmation)
@@ -116,6 +120,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
     - Text Table
     - Display percentage of crash occured in each platform and app version
 
+![Crash Overview](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/3_crash_overview.png)
 * Example
    - Over 30% of crash from Android with App version 1.3
 
@@ -124,7 +129,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
     - Display no.of purchase, no.of user and total price transaction in each event
     - Sort descending by no.of of purchase
     - Identify user favorite events
-
+![Event Overview](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/4_event_overview.png)
 * Example
     - ABC Concert has greatest no. of purchase, no.of user purchase and highest price
 
@@ -133,6 +138,6 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
     - Line 
     - Show no.of crash in last 7days
     - Easy to track app performance
-
+![Crash Count](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/5_crash_count.png)
 * Example
-    - The no.of crash has greated reduced from 1 Jan 2018
+    - The no.of crash has greatly reduced from 1 Jan 2018
