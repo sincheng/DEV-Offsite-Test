@@ -94,7 +94,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
 ![Dashboard Overview](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/kpi_dashboard2.png)
 
 #### * Crash Rate
-    - Donut pie chart with crash rate percentage
+    - Visualization Type: Donut pie chart with crash rate percentage
     - Calculated by count of session_id in app crash report / count of all session id in user_session_time
     - Can quickly alert if the crash rate exceed a given value
 
@@ -105,7 +105,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
   - crash rate = 11/37 = 64.71%
 
 ####  * Session Time Overview
-    - Bar Chart 
+    - Visualization Type: Bar Chart 
     - Show average session time user spent on each page
     - Understand which page user spent most of the time
     - The label above the bar show no. of time access the page
@@ -117,7 +117,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
     - Most of the user access page 3(seat selection)
 
 #### * Crash Overview
-    - Text Table
+    - Visualization Type: Text Table
     - Display percentage of crash occured in each platform and app version
 
 ![Crash Overview](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/3_crash_overview.png)
@@ -125,7 +125,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
    - Over 30% of crash from Android with App version 1.3
 
 #### * Event Overview
-    - Text Table
+    - Visualization Type: Text Table
     - Display no.of purchase, no.of user and total price transaction in each event
     - Sort descending by no.of of purchase
     - Identify user favorite events
@@ -135,7 +135,7 @@ https://public.tableau.com/profile/cathy.cheng8698#!/vizhome/q3d_dashboard_0/KPI
 
 #### * Crash Count in 7 days
 
-    - Line 
+    - Visualization Type: Line 
     - Show no.of crash in last 7days
     - Easy to track app performance
 ![Crash Count](https://github.com/sincheng/DEV-Offsite-Test/blob/master/Q3d/img/5_crash_count.png)
